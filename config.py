@@ -10,28 +10,28 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7217371767:AAFuzmsAGjYBd0E-JbQB50ucT1warjAr-4k")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "9219444"))
+APP_ID = int(os.environ.get("APP_ID", "25533814"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "9db23f3d7d8e7fc5144fb4dd218c8cc3")
+API_HASH = os.environ.get("API_HASH", "1df47b6c8c43b3c62533eed9abaf8ef9")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002145592677"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002724249292"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6290948531"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7209883949"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://zxbots:zXaBhi2315a@cluster0.lbbygpm.mongodb.net/?retryWrites=true&w=majority"
-DB_NAME = os.environ.get("DATABASE_NAME", "tokenbota")
+DB_URI = "mongodb+srv://Sinchu:Sinchu@sinchu.qwijj.mongodb.net/?retryWrites=true&w=majority&appName=Sinchu"
+DB_NAME = os.environ.get("DATABASE_NAME", "Dev-Data")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "moneycase.link")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "710b7ed8fdc5f89e9036000cc10121921e7732f1")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
