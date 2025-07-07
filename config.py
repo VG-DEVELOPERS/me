@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7209883949"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://Sinchu:Sinchu@sinchu.qwijj.mongodb.net/?retryWrites=true&w=majority&appName=Sinchu"
+DB_URI = "mongodb://dlovesfact:gjWBCnNB2d6qUwBf@cluster0-shard-00-00.ua24tna.mongodb.net:27017,cluster0-shard-00-01.ua24tna.mongodb.net:27017,cluster0-shard-00-02.ua24tna.mongodb.net:27017/?ssl=true&replicaSet=atlas-ua24tna-shard-0&authSource=admin&retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "Dev-Data")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://inshorturl.com")
