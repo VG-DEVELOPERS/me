@@ -31,7 +31,7 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://Sinchu:Sinchu@sinchu.qwijj.mongodb.net/?retryWrites=true&w=majority&appName=Sinchu"
 DB_NAME = os.environ.get("DATABASE_NAME", "Dev-Data")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://inshorturl.com")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "c3524d4ee6df49aa1392ee7b3aa6d7a7948e0286")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
