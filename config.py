@@ -39,8 +39,15 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/HowTo_open_Linkz/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL"))
+FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL")
+FORCE_SUB_CHANNEL2 = os.environ.get("FORCE_SUB_CHANNEL2")
+
+# Optional: Convert to int only if not empty
+if FORCE_SUB_CHANNEL:
+    FORCE_SUB_CHANNEL = int(FORCE_SUB_CHANNEL)
+
+if FORCE_SUB_CHANNEL2:
+    FORCE_SUB_CHANNEL2 = int(FORCE_SUB_CHANNEL2)
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
