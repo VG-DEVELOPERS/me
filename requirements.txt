@@ -16,3 +16,4 @@ shortzy
 aiohttp
 aiofiles
 asyncio
+razorpay
