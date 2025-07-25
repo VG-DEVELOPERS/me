@@ -2,12 +2,14 @@
 pyrogram
 TgCrypto
 pyromod
+
 # --- For-Database ------------ #
 pymongo
 motor
 umongo
 dnspython
 marshmallow
+
 # --- For-Web-Response ------- #
 pytz
 requests
@@ -16,5 +18,7 @@ shortzy
 aiohttp
 aiofiles
 asyncio
+
+# --- For-Razorpay ------------ #
 razorpay
-pkg_resources
+setuptools
